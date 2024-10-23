@@ -8,6 +8,7 @@ namespace Kreata.Backend.Controllers
     [Route("api/[controller]")]
     public class StudentController : ControllerBase
     {
+        //faszkivan
         private IStudentRepo _studentRepo;
 
         public StudentController(IStudentRepo studentRepo)
